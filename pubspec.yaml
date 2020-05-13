@@ -1,0 +1,27 @@
+name: ratesconverter
+description: Simple rates converter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^4.0.0
+  flutter_bloc: ^4.0.0
+  http: ^0.12.0
+  equatable: ^1.0.0
+  intl: ^0.16.1
+  charts_flutter: ^0.9.0
+  rxdart: ^0.24.0
+  country_icons: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  effective_dart: ^1.2.0
+
+flutter:
+  uses-material-design: true
